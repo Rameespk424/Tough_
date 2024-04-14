@@ -1,0 +1,99 @@
+.btn {
+    border: none !important;
+    outline: 0 !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    &-primary {
+        background-color: transparent !important;
+        border-color: $color-white;
+        padding: 12px 36px;
+        color: #fff !important;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius:0;
+        border:1px solid !important;
+        &:hover {
+         
+            border: none !important; 
+            color: $color-black !important;
+            background: $color-white !important;
+        }
+    }
+
+    &-black {
+       
+        background-color: transparent !important;
+        border-color: $color-brand;
+        padding: 12px 36px;
+        color: $color-brand !important;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius:0;
+        border:1px solid !important;
+        &:hover {
+         
+            color: $color-white !important;
+            background: $color-brand !important;
+        }
+
+        @media screen and(max-width:376px) {
+            padding: 12px 30px;
+        }
+    }
+
+
+    &-c_shop {
+        background-color: transparent !important;
+        border-color: $color-brand;
+        padding: 12px 36px;
+        color: $color-brand !important;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius:0;
+        border:1px solid !important;
+        &:hover {
+         
+            color: $color-white !important;
+            background: $color-brand !important;
+        }
+    }
+
+    &-checkout {
+        background-color: transparent !important;
+        border-color: $color-brand;
+        padding: 12px 36px;
+        color: $color-brand !important;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius:0;
+        border:1px solid !important;
+        width: 100%;
+        margin-top: 40px;
+        &:hover {
+         
+            color: $color-white !important;
+            background: $color-brand !important;
+        }
+    }
+    &-c_cart {
+        background-color: transparent !important;
+        border-color: $color-brand;
+        padding: 12px 36px;
+        color: $color-brand !important;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius:0;
+        border:1px solid !important;
+        &:hover {
+         
+            color: $color-white !important;
+            background: $color-brand !important;
+        }
+    }
+
+    &:focus,
+    &.focus {
+      outline: 0;
+      
+    }
+}

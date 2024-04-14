@@ -1,0 +1,14 @@
+@import './main-product';
+@import './amazing';
+@import './services';
+@import './subscribe';
+
+
+.body_section{
+    background-color: $color-white !important;
+    margin-bottom: 230px;
+@media screen and(max-width:992px) {
+    margin-bottom: 400px;
+}
+    
+}

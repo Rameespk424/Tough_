@@ -1,0 +1,47 @@
+.subscribe{ 
+    margin-top: 90px;
+    padding-bottom: 100px;
+    .wrapper{
+        margin: 10px auto;
+        h3{
+            padding-bottom: 30px;
+        color: $color-brand;
+        font-size: $font-h3;
+        text-align: center;
+        }
+        p{
+            padding-bottom: 40px;
+            text-align: center;
+            color: $color-grey;
+            font-size: $font-text;
+        }
+    
+     
+            .inp
+  {
+                outline: 0;
+                border-width: 0 0 1px;
+                border-color: transparent;
+                border-bottom-color:$color-border;
+                width: 100% !important;
+                padding: 10px 0; 
+                 -webkit-transition: 0.5s;
+                transition: 0.5s;
+                text-align: center;
+                margin-bottom: 20px;
+           
+              }
+              .inp:focus {
+                border-color:$color-hover;
+                border: 3px solid #555;
+              }
+              
+             
+       .button_wrapper{
+           margin: 40px auto;
+           display: flex;
+           justify-content: center;
+       }
+    }
+}
+
